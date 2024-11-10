@@ -1,0 +1,29 @@
+# Open Terminate 2 Tabs
+Run:
+```
+yarn
+```
+## Tab1
+```
+npx hardhat node --fork https://eth-mainnet.public.blastapi.io
+```
+## Tab2
+```
+node crowdsale.js
+```
+### Expected Output
+```
+BALANCE BEFORE WITHDRAW:
+
+crowdsaleOwner 0xE03ffD991908e1CD52C9cfE151A2F36B0bD940a5: 5.8 ETH
+multiSigAdvisorAddress1 0x75dcB0Ba77e5f99f8ce6F01338Cb235DFE94260c: 0.005 ETH
+multiSigAdvisorAddress2 0x94ddC32c61BC9a799CdDea87e6a1D1316198b0Fa: 0.005 ETH
+multiSigAdvisorAddress3 0xFaE39043B8698CaA4F1417659B00737fa19b8ECC: 0.005 ETH
+
+BALANCE AFTER WITHDRAW:
+
+crowdsaleOwner 0xE03ffD991908e1CD52C9cfE151A2F36B0bD940a5: 13.754892313457624125 ETH
+multiSigAdvisorAddress1 0x75dcB0Ba77e5f99f8ce6F01338Cb235DFE94260c: 0.002547896323109552 ETH
+multiSigAdvisorAddress2 0x94ddC32c61BC9a799CdDea87e6a1D1316198b0Fa: 0.003856212176450392 ETH
+multiSigAdvisorAddress3 0xFaE39043B8698CaA4F1417659B00737fa19b8ECC: 0.003517479414228789 ETH
+```
